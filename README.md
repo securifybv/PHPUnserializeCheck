@@ -1,4 +1,4 @@
-# PHP Unserialize Check (Burp Scanner Extensions)
+# PHP Unserialize Check (Burp Scanner Extension)
 
 This Burp Scanner Extension tries to find PHP Object Injection Vulnerabilities.
 
