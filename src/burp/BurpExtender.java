@@ -38,7 +38,7 @@ public class BurpExtender implements IBurpExtender, IScannerCheck
     // serialized PDO object
     private static final byte[] INJ_PDOSERIALIZED = "O:3:\"PDO\":0:{}".getBytes();
     // error message returned when display_errors is enabled
-    private static final byte[] INJ_ERROR = "Uncaught PDOException: You cannot serialize or unserialize PDO instances".getBytes();
+    private static final byte[] INJ_ERROR = "You cannot serialize or unserialize PDO instances".getBytes();
 
     //
     // implement IBurpExtender
